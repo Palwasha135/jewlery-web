@@ -8,11 +8,11 @@ function App() {
     <BrowserRouter>
   
   <Routes>
-    <Route path='/' />
-    <Route path='/Shop'/>
-    <Route path='/Product' />
-    <Route path='/Blog'  />
-    <Route path='/Page'  />
+    <Route path='/' element={<Home/>}/>
+    <Route path='/Shop' element={<Shop/>} />
+    <Route path='/Product' element={<Product/>}  />
+    <Route path='/Blog'  element={<Blog/>} />
+    <Route path='/Page' element={<Page/>}  />
     </Routes>
     </BrowserRouter>
     </div>
