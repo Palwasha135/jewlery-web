@@ -7,7 +7,7 @@ function App() {
     
     <BrowserRouter>
   
-    <Routes>
+  <Routes>
     <Route path='/' />
     <Route path='/Shop'/>
     <Route path="/Product" />
