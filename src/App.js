@@ -10,8 +10,8 @@ function App() {
   <Routes>
     <Route path='/' />
     <Route path='/Shop'/>
-    <Route path="/Product" />
-    <Route path="/Blog"  />
+    <Route path='/Product' />
+    <Route path='/Blog'  />
     <Route path='/Page'  />
     </Routes>
     </BrowserRouter>
