@@ -1,0 +1,29 @@
+.hover-bg-bottom-to-top {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hover-bg-bottom-to-top::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ff6900; /* Desired hover background color */
+    transition: top 0.3s;
+    z-index: -1;
+    opacity: 65%;
+  }
+  
+  .hover-bg-bottom-to-top:hover::before {
+    top: 0;
+  }
+  
+  .hover-bg-bottom-to-top > a {
+    position: relative;
+    z-index: 1;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+  }
